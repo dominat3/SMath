@@ -1,0 +1,51 @@
+#container{
+    background-image: url(img/bacgroundMath.png);
+    height: 3000px;
+
+}
+
+.content{
+    color: black;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flexbox;
+}
+
+.navbarmy{
+    background: linear-gradient(to bottom right, #8cc2f4, #ffffff);
+    height:fit-content;
+    margin-bottom: 10%;
+}
+
+.section{
+    padding: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 20%;
+}
+
+.img{
+    height: 45vh;
+    display: inline-block;
+    margin: 4%;
+}
+
+.text{
+    background: rgba(140,194,244,5);
+    display: inline-block;
+    padding: 4%;
+    justify-content: center;
+    -webkit-box-shadow: 0px 12px 41px 7px rgba(100,179,224,0.66);
+    -moz-box-shadow: 0px 12px 41px 7px rgba(100,179,224,0.66);
+    box-shadow: 0px 12px 41px 7px rgba(100,179,224,0.66);
+    text-align: center;
+}
+
+.imgbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
