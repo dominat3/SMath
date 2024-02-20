@@ -6,14 +6,17 @@
     <title>Matematyczny Maraton Ósmoklasisty</title>
     <link rel="stylesheet" href="style.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
   </head>
+
+
   <body>
     <div id="container">
       <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top navbarmy">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <img src="img/education.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
-            Matematyczny Maraton Ósmoklasisty
+          <a class="navbar-brand pair" href="index.html">
+            <img src="img/education.png" alt="Logo" width="40" height="40" class="d-inline-block align-text-top">
+            <span style="margin-left: 10px;">Matematyczny Maraton Ósmoklasisty</span>
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -21,7 +24,16 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent" style="padding:1%;">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link disabled" aria-current="page" href="">Contact</a>
+                <a class="nav-link disabled pair" aria-current="page" href="contact.html">
+                  <img src="img/contactbook.png" height="30px" alt="Kontakt">
+                  <span style="margin-left: 1px;">Kontakt</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link pair" href="https://forms.gle/KgT2F33kfL4SojPSA" target="_blank">
+                  <img src="img/documenticon.png" height="30px" alt="okument">
+                  Zapisy
+                </a>
               </li>
             </ul>
             <ul class="nav nav-pills">
@@ -52,7 +64,7 @@
             <div class="text col-md-6 col-sm-6 col-12">
               <h4> 👋 Hej! Nazywam się Szymon Tyliński👋 </h4>
               <p>O mnie:</p>
-                <ul>
+              <div class="cleaner">
                   <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseTeacher" role="button" aria-expanded="false" aria-controls="collapseTeacher">
                     korepetytor matematyki 🧮 
                   </a>
@@ -62,9 +74,9 @@
                     <img src="img/stats.png" alt="Ocena uczniów"> 
                   </div>
                 </div>
-                </ul>
+              </div>
 
-                <ul>
+                <div class="cleaner">
                   <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseUniversity" role="button" aria-expanded="false" aria-controls="collapseUniversity">
                     student politechniki wrocławskiej 🧑‍💻
                   </a>
@@ -73,8 +85,8 @@
                       Od ubiegłego roku jestem studentem wydziału Informatyki i Telekomunikacji Politechniki Wrocławskiej. Pomimo to, strona jest wytworem jedynie mojej pracy indywidualnej :) Zachęcam do zostawienia feedbacku o stronie w zakładce "Kontakt".
                     </div>
                   </div>
-                </ul>
-                <ul>
+                </div>
+                <div class="cleaner">
                   <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseZWZT" role="button" aria-expanded="false" aria-controls="collapseZWZT">
                     lider społeczności Zwolnionych z Teorii 👨🏻‍🏫
                   </a>
@@ -107,17 +119,17 @@
                       </div>
                     </div>  
                   </div>
-                </ul>
-                <ul>
-                  <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseHobby" role="button" aria-expanded="false" aria-controls="collapseHobby">
-                    pilot szybowca ✈️
-                  </a>
-                <div class="collapse" id="collapseHobby">
-                  <div class="card card-body">
-                    Poza powyzszymi, jestem człowiekiem ciekawym świata. W wolnym czasie zegluję, latam dronem i przygotowuję się do licencji pilota szybowca.
+                </div>
+                <div class="cleaner">
+                    <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseHobby" role="button" aria-expanded="false" aria-controls="collapseHobby">
+                      pilot szybowca ✈️
+                    </a>
+                  <div class="collapse" id="collapseHobby">
+                    <div class="card card-body">
+                      Poza powyzszymi, jestem człowiekiem ciekawym świata. W wolnym czasie zegluję, latam dronem i przygotowuję się do licencji pilota szybowca.
+                    </div>
                   </div>
                 </div>
-                </ul>
             </div>
 
           </div>
@@ -150,16 +162,52 @@
           </div>
 
           <div class="section row gx-4">
-            <div id="scrollspyHeading3" class=" imgbox col-md-6  col-12 align-middle">
+            <div id="scrollspyHeading3" class=" imgbox col-md-6 col-12 align-middle">
               <img class="img" src="img/educationloop.png" alt="calendar photo">
             </div>
             <div class="text col-md-6 col-12">
-              <h3>💡 Szczegóły 💼</h3>
-              <p>Daty zajęć (soboty marca i kwietnia):
-                  <li>2h tygodniowo</li>
-                  <li>widzimy się w szkole w Wysokiej- ul Chabrowa 99</li>
-                  <li>zaczynamy 02.03 </li>
-              </p>
+              <h3> 💡 Szczegóły: 💼 </h3>
+                <div class="cleaner">
+                  <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseHowLong" role="button" aria-expanded="false" aria-controls="collapseHowLong">
+                      2h tygodniowo
+                    </a>
+
+                    <div class="collapse" id="collapseHowLong">
+                      <div class="card card-body">
+                        Spotykamy się raz w tygodniu na dwie godziny z piętnastominutową przerwą w połowie zajęć. 
+                      </div>
+                    </div>
+                </div>  
+                  
+                <div class="cleaner">
+                  <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseWhere" role="button" aria-expanded="false" aria-controls="collapseWhere">
+                    widzimy się w szkole w Wysokiej- ul Chabrowa 99
+                  </a>
+
+                  <div class="collapse" id="collapseWhere">
+                    <div class="card card-body">
+                      Zajęcia odbywają się w klasie (do ustalenia) na bloku (do ustalenia). Po wejściu przez główne wejście, schodami na pierwsze piętro po czym skręcamy w lewo na blok X...
+                      <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2080.1886322913933!2d17.00572271395576!3d51.04740881368241!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470fc3990bb93ef5%3A0x86fbb3f6e5235aa1!2sZSP%20Wysoka%20im.%20Janusza%20Korczaka!5e0!3m2!1spl!2spl!4v1708428338504!5m2!1spl!2spl" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="cleaner">
+                  <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseWhat" role="button" aria-expanded="false" aria-controls="collapseWhat">
+                    co przynosimy
+                  </a>
+
+                  <div class="collapse" id="collapseWhat">
+                    <div class="card card-body" style="text-align: left;">
+                      <ul>
+                        <li>Czysty zeszyt- najlepiej A4 📒</li>
+                        <li>Coś do pisania ✏️</li> 
+                        <li>Dobry humor i chęci do nauki 🎯</li>
+                        <li>Zadania będą podane na zajęciach 👨🏻‍🏫</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
             </div>
           </div>
 
@@ -173,6 +221,5 @@
         
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-  </body>
   </body>
 </html>

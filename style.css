@@ -35,7 +35,6 @@
 
 .text{
     background: rgba(140,194,244,5);
-    display: inline-block;
     padding: 4%;
     justify-content: center;
     -webkit-box-shadow: 0px 12px 41px 7px rgba(100,179,224,0.66);
@@ -52,4 +51,22 @@
 
 .ZWZT{
     background-color: rgb(235, 0, 139) color(srgb rgb(255, 255, 255) rgb(25rgb(255, 255, 255)55, 255) rgb(255, 255, 255))
+}
+
+.cleaner{
+    margin-top: 3%;
+}
+
+#map {
+  float: left;
+  height: 100%;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pair{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
