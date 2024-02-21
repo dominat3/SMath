@@ -70,3 +70,48 @@
     align-items: center;
     justify-content: center;
 }
+@keyframes priceanimation {
+        0%   {background-color: rgba(13, 141, 201, 0.339);}
+        30%  {background-color: rgba(0, 179, 255, 0.736);}
+        55%  {background-color: rgba(22, 149, 235, 0.881);}
+        80% {background-color: rgba(6, 199, 252, 0.385);}
+        100% {background-color: rgba(13, 141, 201, 0.339);}
+      }
+
+.price{
+    animation-name: priceanimation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.special {
+    position: relative;
+    height: 30vh;
+  }
+
+  .special .specialhelp1,
+  .special .specialhelp2 {
+    position: absolute;
+    top: 50%; /* Wyśrodkowanie w pionie na 50% */
+    left: 50%; /* Wyśrodkowanie w poziomie na 50% */
+    transform: translate(-50%, -50%); /* Poprawka na wyśrodkowanie */
+  }
+
+  .special .specialhelp1 {
+    z-index: 1;
+    transition: opacity 0.6s ease-in-out;
+  }
+
+  .special:hover .specialhelp1 {
+    opacity: 0;
+  }
+
+  .special .specialhelp2 {
+    z-index: 2;
+    opacity: 0;
+    transition: opacity 0.6s ease-in-out;
+  }
+
+  .special:hover .specialhelp2 {
+    opacity: 1;
+  }
