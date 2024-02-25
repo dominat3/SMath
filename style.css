@@ -1,7 +1,6 @@
 #container{
     background-image: url(img/bacgroundMath.png);
-    height: 2800px;
-
+    height: 3000px;
 }
 
 .content{
@@ -17,6 +16,7 @@
     height:fit-content;
     margin-bottom: 10%;
 }
+
 
 .section{
     padding: 3%;
@@ -86,7 +86,8 @@
 
 .special {
     position: relative;
-    height: 30vh;
+    height: 40vh;
+    margin-bottom: 30%;
   }
 
   .special .specialhelp1,
@@ -115,3 +116,19 @@
   .special:hover .specialhelp2 {
     opacity: 1;
   }
+
+
+  /* Dla ekranów o szerokości mniejszej niż 600px */
+@media (max-width: 600px) {
+  .pokaz {
+    display: block; /* Ukryj ten element */
+  }
+}
+
+/* Dla ekranów o szerokości większej niż 600px */
+@media (min-width: 601px) {
+
+  .pokaz {
+    display: none; /* Ukryj ten element */
+  }
+}
