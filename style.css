@@ -1,6 +1,6 @@
 #container{
     background-image: url(img/bacgroundMath.png);
-    height: 3000px;
+    height: fit-content;
 }
 
 .content{
@@ -128,9 +128,6 @@
   .ghost {
     display: block; /* Ukryj ten element */
   }
-  #container{
-    height: 3300px;
-  }
 }
 
 /* Dla ekranów o szerokości większej niż 600px */
@@ -138,9 +135,5 @@
 
   .ghost {
     display: none; /* Ukryj ten element */
-  }
-
-  #container{
-    height: 3000px;
   }
 }
