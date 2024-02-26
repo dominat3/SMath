@@ -11,6 +11,11 @@
     display: flexbox;
 }
 
+.maraton{
+  font-weight: 500;
+  font-style: oblique;
+}
+
 .navbarmy{
     background: linear-gradient(to bottom right, #8cc2f4, #ffffff);
     height:fit-content;
@@ -120,15 +125,22 @@
 
   /* Dla ekranów o szerokości mniejszej niż 600px */
 @media (max-width: 600px) {
-  .pokaz {
+  .ghost {
     display: block; /* Ukryj ten element */
+  }
+  #container{
+    height: 3300px;
   }
 }
 
 /* Dla ekranów o szerokości większej niż 600px */
 @media (min-width: 601px) {
 
-  .pokaz {
+  .ghost {
     display: none; /* Ukryj ten element */
+  }
+
+  #container{
+    height: 3000px;
   }
 }
